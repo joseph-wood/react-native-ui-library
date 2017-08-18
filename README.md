@@ -1,6 +1,8 @@
 # react-native-ui-library
 
 A simple styled UI library for React Native
+npm link: https://www.npmjs.com/package/react-native-ui-library
+github link: https://github.com/joseph-wood/react-native-ui-library
 
 ## Getting Started
 
