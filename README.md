@@ -10,18 +10,18 @@ A simple styled UI library for React Native
 npm i --save-dev react-native-ui-library
 ```
 
-### Importation
+### Import
 
 ```
 import { components } from 'react-native-ui-library'
 ```
 
 Enjoy!
-## Components 
+## Form Components 
 
-A list of UI components and their props that are available:
+A list of Form UI components and their props that are available:
 
-###TextInputBasic Props:
+### TextInputBasic Props:
 ```
     placeholder
     onChange
@@ -41,4 +41,36 @@ A list of UI components and their props that are available:
     selectionColor
     keyboardAppearance
     clear
+```
+## Buttons
+
+A list of Buttons and their props that are available:
+
+### Button Types Available
+
+Button Info: { ButtonInfo }
+Button Success: { ButtonSuccess }
+Button Warning: { ButtonWarning }
+Button Danger: { ButtonDanger }
+
+### Button Props:
+```
+    onPress
+    children
+```
+
+## Buttons
+
+A list of Cards and their props that are available:
+
+### Button Types Available
+
+Card: { Card }
+Card with Header: Available in 1.3.0
+Card with Footer: Available in 1.3.0 
+Card with Header and Footer: Available in 1.3.0
+
+### Card Props:
+```
+    children
 ```
