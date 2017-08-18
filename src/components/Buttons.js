@@ -13,7 +13,7 @@ export class ButtonInfo extends Component {
         style={[styles.button, styles.buttonInfo]}
           onPress={this.props.onPress} 
         >
-        {this.props.children}
+          <Text style={styles.text}>{this.props.children}</Text>
         </TouchableHighlight>
       </View>
     );
@@ -32,7 +32,7 @@ export class ButtonDanger extends Component {
         style={[styles.button, styles.buttonDanger]}
           onPress={this.props.onPress} 
         >
-        {this.props.children}
+        <Text style={styles.text}>{this.props.children}</Text>
         </TouchableHighlight>
       </View>
     );
@@ -50,12 +50,14 @@ const styles = StyleSheet.create({
     paddingRight: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    color: '#FFFFFF'    
   },
   buttonInfo: {
     backgroundColor: '#3498db'    
   },
   buttonDanger: {
     backgroundColor: '#e74c3c'
+  },
+  text: {
+    color: '#FFFFFF'    
   }
 });
