@@ -5,6 +5,7 @@ npm link: https://www.npmjs.com/package/react-native-ui-library
 github link: https://github.com/joseph-wood/react-native-ui-library
 
 View it on expo: exp://fg-kqr.joseph-wood.sharednativecomponents.exp.direct:80
+![alt text][logo]
 
 [logo]: https://github.com/joseph-wood/react-native-ui-library/assets/expo-preview.png "Expo QR Code"
 
