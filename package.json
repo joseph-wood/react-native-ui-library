@@ -1,0 +1,25 @@
+{
+  "name": "react-native-ui-library",
+  "version": "1.1.5",
+  "description": "A UI component library for React Native",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "ui",
+    "library",
+    "components"
+  ],
+  "author": "joseph-s-wood",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react": "^15.6.1",
+    "react-native": "^0.47.1",
+    "react-native-vector-icons": "^4.3.0"
+  },
+  "dependencies": {}
+}
