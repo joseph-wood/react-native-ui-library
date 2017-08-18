@@ -39,6 +39,24 @@ export class ButtonDanger extends Component {
   }
 }
 
+export class ButtonSuccess extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  render() {
+    return (
+      <View style={styles.wrapper}>
+        <TouchableHighlight
+        style={[styles.button, styles.buttonSuccess]}
+          onPress={this.props.onPress} 
+        >
+        <Text style={styles.text}>{this.props.children}</Text>
+        </TouchableHighlight>
+      </View>
+    );
+  }
+}
 
 export class ButtonWarning extends Component {
   constructor(props){
