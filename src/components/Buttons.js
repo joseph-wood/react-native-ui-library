@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, TouchableHighlight, StyleSheet } from 'react-native';
+import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
 
 export class ButtonInfo extends Component {
   constructor(props){
@@ -39,6 +39,26 @@ export class ButtonDanger extends Component {
   }
 }
 
+
+export class ButtonWarning extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  render() {
+    return (
+      <View style={styles.wrapper}>
+        <TouchableHighlight
+        style={[styles.button, styles.buttonWarning]}
+          onPress={this.props.onPress} 
+        >
+        <Text style={styles.text}>{this.props.children}</Text>
+        </TouchableHighlight>
+      </View>
+    );
+  }
+}
+
 const styles = StyleSheet.create({
   wrapper: {
     width: '100%'    
@@ -46,10 +66,15 @@ const styles = StyleSheet.create({
   button: {
     width: "100%",
     height: 42,
+    marginTop: 12,
     paddingLeft: 12,
     paddingRight: 12,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
+  }, 
+  text: {
+    color: '#FFFFFF',
+    fontWeight: 'bold'
   },
   buttonInfo: {
     backgroundColor: '#3498db'    
@@ -57,7 +82,10 @@ const styles = StyleSheet.create({
   buttonDanger: {
     backgroundColor: '#e74c3c'
   },
-  text: {
-    color: '#FFFFFF'    
+  buttonSuccess: {
+    backgroundColor: '#2ecc71'
+  },
+  buttonWarning: {
+    backgroundColor: '#f1c40f'
   }
 });

@@ -1,5 +1,5 @@
 // Buttons
-export { ButtonInfo, ButtonDanger } from './components/Buttons';
+export { ButtonInfo, ButtonSuccess, ButtonWarning, ButtonDanger } from './components/Buttons';
 
 // Cards
 export { Card } from './components/Cards';
