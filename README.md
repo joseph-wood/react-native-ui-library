@@ -8,7 +8,7 @@ View it on expo: exp://fg-kqr.joseph-wood.sharednativecomponents.exp.direct:80
 
 Or 
 
-![alt text](https://github.com/joseph-wood/react-native-ui-library/assets/expo-preview.png"Expo QR Code")
+![alt text](https://github.com/joseph-wood/react-native-ui-library/blob/master/assets/expo-preview.png "Expo QR Code")
 
 ## Getting Started
 
